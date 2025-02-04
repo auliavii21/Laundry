@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="bg">#45456A</color>
-    <color name="gradasi">#A27C91</color>
-    <color name="ei">#F2CBD3</color>
+    <color name="clr1">#A27C91</color>
+    <color name="clr2">#F2CBD3</color>
 </resources>

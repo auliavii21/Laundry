@@ -30,13 +30,13 @@ class MainActivity : AppCompatActivity() {
         val hourOfDay = calendar[Calendar.HOUR_OF_DAY]
         var greeting = ""
         greeting= if (hourOfDay >= 5 && hourOfDay < 10) {
-            "Selamat Pagi,"
+            "Selamat Pagi, Aulia!"
         } else if (hourOfDay >= 10 && hourOfDay < 15) {
-            "Selamat Siang,"
+            "Selamat Siang, Aulia!"
         } else if (hourOfDay >= 15 && hourOfDay < 18) {
-            "Selamat Sore,"
+            "Selamat Sore, Aulia!"
         } else {
-            "Selamat Malam,"
+            "Selamat Malam, Aulia!"
         }
         hallo.text = greeting
 

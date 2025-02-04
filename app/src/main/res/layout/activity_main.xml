@@ -46,7 +46,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/gradasi">
+            android:background="@color/clr1">
 
             <TextView
                 android:id="@+id/tvestimasi"
@@ -79,7 +79,7 @@
                 android:id="@+id/transaksi"
                 android:layout_width="110dp"
                 android:layout_height="110dp"
-                android:backgroundTint="@color/ei"
+                android:backgroundTint="@color/clr2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvestimasi"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -107,7 +107,7 @@
                 android:id="@+id/pelanggan"
                 android:layout_width="110dp"
                 android:layout_height="110dp"
-                android:backgroundTint="@color/ei"
+                android:backgroundTint="@color/clr2"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/laporan"
                 app:layout_constraintStart_toEndOf="@+id/transaksi"
@@ -117,7 +117,7 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/pelanggan"
-                    android:background="@color/ei"
+                    android:background="@color/clr2"
                     android:layout_gravity="center_horizontal">
 
                 </ImageView>
@@ -135,7 +135,7 @@
                 android:id="@+id/laporan"
                 android:layout_width="110dp"
                 android:layout_height="110dp"
-                android:backgroundTint="@color/ei"
+                android:backgroundTint="@color/clr2"
                 app:layout_constraintTop_toBottomOf="@id/tvestimasi"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -146,7 +146,7 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/laporan"
-                    android:background="@color/ei"
+                    android:background="@color/clr2"
                     android:layout_gravity="center_horizontal">
 
                 </ImageView>
@@ -195,7 +195,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="15dp"
-        android:backgroundTint="@color/ei"
+        android:backgroundTint="@color/clr2"
         app:layout_constraintTop_toBottomOf="@+id/jangan"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/layanan"
@@ -204,7 +204,7 @@
         android:layout_marginTop="5dp"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:background="@color/ei"
+        android:background="@color/clr2"
         android:src="@drawable/akun"
         android:layout_gravity="center_horizontal">
 
@@ -223,7 +223,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="15dp"
-        android:backgroundTint="@color/ei"
+        android:backgroundTint="@color/clr2"
         app:layout_constraintTop_toBottomOf="@+id/jangan"
         app:layout_constraintStart_toEndOf="@+id/akun"
         app:layout_constraintEnd_toStartOf="@+id/tambahan"
@@ -233,7 +233,7 @@
             android:layout_marginTop="5dp"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:background="@color/ei"
+            android:background="@color/clr2"
             android:src="@drawable/layanan"
             android:layout_gravity="center_horizontal">
 
@@ -252,7 +252,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="15dp"
-        android:backgroundTint="@color/ei"
+        android:backgroundTint="@color/clr2"
         app:layout_constraintTop_toBottomOf="@+id/jangan"
         app:layout_constraintStart_toEndOf="@+id/layanan"
         app:layout_constraintEnd_toEndOf="parent"
@@ -263,7 +263,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/tambahan"
-            android:background="@color/ei"
+            android:background="@color/clr2"
             android:layout_gravity="center_horizontal">
 
         </ImageView>
@@ -282,7 +282,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="15dp"
-        android:backgroundTint="@color/ei"
+        android:backgroundTint="@color/clr2"
         app:layout_constraintEnd_toStartOf="@+id/cabang"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/akun">
@@ -291,7 +291,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/pegawai"
-            android:background="@color/ei"
+            android:background="@color/clr2"
             android:layout_gravity="center_horizontal">
 
         </ImageView>
@@ -311,7 +311,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="15dp"
-        android:backgroundTint="@color/ei"
+        android:backgroundTint="@color/clr2"
         app:layout_constraintEnd_toStartOf="@+id/printer"
         app:layout_constraintStart_toEndOf="@+id/akun"
         app:layout_constraintTop_toBottomOf="@+id/layanan">
@@ -320,7 +320,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/cabang"
-            android:background="@color/ei"
+            android:background="@color/clr2"
             android:layout_gravity="center_horizontal">
 
         </ImageView>
@@ -339,7 +339,7 @@
         android:id="@+id/printer"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:backgroundTint="@color/ei"
+        android:backgroundTint="@color/clr2"
         android:layout_marginTop="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/cabang"
@@ -349,7 +349,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/printer"
-            android:background="@color/ei"
+            android:background="@color/clr2"
             android:layout_gravity="center_horizontal">
 
         </ImageView>
