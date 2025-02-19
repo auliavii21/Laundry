@@ -7,99 +7,96 @@
     android:padding="10dp">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cvCARD_PELANGGAN"
+        android:id="@+id/cvCARD_PEGAWAI"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="5dp"
-        android:backgroundTint="@color/clr2"
-        app:cardCornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="10dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/clr2">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
             <TextView
-                android:id="@+id/tvCARD_PELANGGAN_Id"
+                android:id="@+id/tvCARD_PEGAWAI_Id"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/card_pegawai_id"
+                android:textSize="16sp"
                 android:background="@color/clr3"
                 android:padding="8dp"
-                android:text="@string/card_pelanggan_id"
-                android:textColor="@color/black"
-                android:textSize="16sp" />
-
+                android:textColor="@color/black"/>
             <TextView
-                android:id="@+id/tvCARD_PELANGGAN_Nama"
+                android:id="@+id/tvCARD_PEGAWAI_Nama"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
+                android:text="@string/card_pegawai_nama"
                 android:layout_marginTop="5dp"
-                android:text="@string/card_pelanggan_nama"
-                android:textSize="15sp"
-                android:textColor="@color/black"
-                android:textStyle="bold" />
-
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"/>
             <TextView
-                android:id="@+id/tvCARD_PELANGGAN_Alamat"
+                android:id="@+id/tvCARD_PEGAWAI_Alamat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
+                android:text="@string/alamat"
                 android:layout_marginTop="5dp"
-                android:textColor="@color/black"
-                android:text="@string/alamat" />
-
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"/>
             <TextView
-                android:id="@+id/tvCARD_PELANGGAN_NoHp"
+                android:id="@+id/tvCARD_PEGAWAI_NoHP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
+                android:text="@string/nohp"
                 android:layout_marginTop="5dp"
-                android:textColor="@color/black"
-                android:text="@string/nohp" />
-
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"/>
             <TextView
-                android:id="@+id/tvCARD_PELANGGAN_Terdaftar"
+                android:id="@+id/tvCARD_PEGAWAI_Terdaftar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
+                android:text="@string/terdaftar"
                 android:layout_marginTop="5dp"
-                android:textColor="@color/black"
-                android:text="@string/terdaftar" />
-
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tvCARD_PEGAWAI_Cabang "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cabang"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:textColor="@color/black"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
 
                 <Button
-                    android:id="@+id/btCARD_PELANGGAN_Hubungi"
                     android:layout_width="150dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginStart="20dp"
-                    android:backgroundTint="@color/clr1"
+                    android:layout_marginEnd="20dp"
                     android:text="@string/Hubungi"
-                    android:textColor="@color/black" />
-
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/clr1"/>
                 <Button
-                    android:id="@+id/btCARD_PELANGGAN_Lihat"
                     android:layout_width="150dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginStart="20dp"
-                    android:backgroundTint="@color/clr1"
                     android:text="@string/Lihat"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/clr1"/>
             </LinearLayout>
         </LinearLayout>
 

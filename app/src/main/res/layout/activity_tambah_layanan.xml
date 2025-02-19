@@ -7,14 +7,13 @@
     android:orientation="vertical"
     android:id="@+id/main"
     android:padding="10dp"
-    tools:context=".pelanggan.TambahPelanggan">
+    tools:context=".layanan.TambahLayanan">
 
     <TextView
-        android:id="@+id/tvTambahPelanggan_Judul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="@string/tambah_pelanggan"
+        android:text="@string/tambah_layanan"
         android:textAlignment="center"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -29,7 +28,6 @@
         android:textSize="17sp" />
 
     <EditText
-        android:id="@+id/etTambahPelanggan_Nama"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="5dp"
@@ -43,41 +41,19 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/alamat"
+        android:text="@string/harga"
         android:layout_marginTop="15dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:textSize="17sp" />
 
     <EditText
-        android:id="@+id/etTambahPelanggan_Alamat"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="5dp"
-        android:hint="@string/alamat"
-        android:inputType="textPostalAddress"
-        android:paddingStart="10dp"
-        android:background="@drawable/border"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/nohp"
-        android:layout_marginTop="15dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:textSize="17sp" />
-
-    <EditText
-        android:id="@+id/etTambahPelanggan_HoHP"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="5dp"
-        android:hint="@string/nohp"
+        android:hint="@string/harga"
         android:inputType="phone"
         android:paddingStart="10dp"
         android:background="@drawable/border"/>
@@ -92,7 +68,6 @@
         android:textSize="17sp" />
 
     <EditText
-        android:id="@+id/etTambahPelanggan_Cabang"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
@@ -103,9 +78,7 @@
         android:background="@drawable/border"/>
 
 
-
     <Button
-        android:id="@+id/btTambahPelanggan_Simpan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
