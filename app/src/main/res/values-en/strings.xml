@@ -24,4 +24,5 @@
     <string name="erCabang">Branch cannot be empty</string>
     <string name="Hubungi">Contact</string>
     <string name="Lihat">See</string>
+    <string name="erTerdaftar">Registered cannot be empty</string>
 </resources>

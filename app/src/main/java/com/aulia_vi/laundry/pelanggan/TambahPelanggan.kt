@@ -112,7 +112,7 @@ class TambahPelanggan : AppCompatActivity() {
     fun simpan() {
         val pelangganBaru = myRef.push()
         val pelangganId = pelangganBaru.key
-        val currentTime = SimpleDateFormat("dd-MMM-yyyy HH:mm:ss", Locale.getDefault()).format(Date())
+        val currentTime = SimpleDateFormat("dd-MMMM-yyyy HH:mm:ss", Locale.getDefault()).format(Date())
 
         val data = ModelPelanggan(
             pelangganId.toString(),

@@ -66,6 +66,15 @@
                 android:text="@string/nohp" />
 
             <TextView
+                android:id="@+id/tvCARD_PELANGGAN_Cabang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:text="@string/cabang" />
+
+            <TextView
                 android:id="@+id/tvCARD_PELANGGAN_Terdaftar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -73,6 +82,7 @@
                 android:layout_marginTop="5dp"
                 android:textColor="@color/black"
                 android:text="@string/terdaftar" />
+
 
             <LinearLayout
                 android:layout_width="match_parent"

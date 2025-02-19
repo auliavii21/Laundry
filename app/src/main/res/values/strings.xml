@@ -23,4 +23,5 @@
     <string name="erCabang">Cabang tidak boleh kosong</string>
     <string name="Hubungi">Hubungi</string>
     <string name="Lihat">Lihat</string>
+    <string name="erTerdaftar">Terdaftar tidak boleh kosong</string>
 </resources>
